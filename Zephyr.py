@@ -850,7 +850,7 @@ text = """
 ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═════╝ ╚══════╝   ╚═╝   ╚═╝╚══════╝"""
 print(text)
 print("")
-print("KIYA DEKH RAHA LAWDE😏....BOT BNN GYA😎 TERA... GAAND DEDE ABB ISSI KHUSHI MEIN DEVELOPER KO🔥🤣🤣🤘🤘....")
+print("KIYA DEKH RAHA LAWDE😏....BOT BNN GYA🔥🤣🤣🤘🤘....")
 if len(sys.argv) not in (1, 3, 4):
     try:
         idk.disconnect()
