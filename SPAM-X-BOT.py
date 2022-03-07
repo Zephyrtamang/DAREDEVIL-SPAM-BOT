@@ -397,11 +397,11 @@ async def _(e):
         yukki = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         if len(e.text) > 7:
             bc = yukki[0]
-            text = "Ruk aa Raha Gaand Maarne Group Waalo Kii..."
+            text = "✌️✌️..."
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await e.client(ImportChatInviteRequest(bc))
-                await event.edit("Join ho gya Chal Abb Gaand Dilwa De Group Waalo Ki...")
+                await event.edit("Join Hogaya...")
             except Exception as e:
                 await event.edit(str(e))   
         else:
@@ -753,7 +753,7 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"😎 𝐙𝐢𝐧𝐝𝐚 𝐇𝐮 𝐁𝐬𝐝𝐤!\n`{ms}` 𝗺𝘀")
+        await event.edit(f"🤖 Zinda Hu Baby!\n`{ms}` 𝗺𝘀")
 
 
 
